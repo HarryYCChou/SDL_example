@@ -1,3 +1,7 @@
+/*
+ * Copyright (c) 2024 Harry Chou
+ */
+
 #include "main.h"
 
 const int SCREEN_WIDTH = 640;
