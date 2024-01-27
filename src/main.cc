@@ -2,7 +2,7 @@
  * Copyright (c) 2024 Harry Chou
  */
 
-#include "main.h"
+#include "SDL_example/main.h"
 
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 480;
