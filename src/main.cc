@@ -7,6 +7,13 @@
 const int SCREEN_WIDTH = 640;
 const int SCREEN_HEIGHT = 480;
 
+static void check_vk_result(VkResult err) {
+  if (err == 0) return;
+
+  if (err < 0)
+    cout << "error" << endl;
+}
+
 int main() {
   // Initialize SDL
   if (SDL_Init(SDL_INIT_VIDEO) < 0) {
